@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_view1" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/code_info1"
+        android:padding="16dp"
+        android:background="@drawable/text_bg"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Scan QR Code"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_arrow"
+        android:visibility="gone"/>
+
+</FrameLayout>

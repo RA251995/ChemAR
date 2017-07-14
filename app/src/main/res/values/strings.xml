@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">ChemAR</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ndkmol">NDKMolActivity</string>
+
+    <string name="preferencesTitle">Preferences</string>
+    <string name="proxyHost">httpProxyHost</string>
+    <string name="proxyHostTitle">HTTP Proxy Host</string>
+    <string name="proxyHostSummary"></string>
+    <string name="proxyPortTitle">HTTP Proxy Port</string>
+    <string name="proxyPort">httpProxyPort</string>
+    <string name="proxyPortSummary"></string>
+    <string name="useProxy">useHTTPProxy</string>
+    <string name="useProxySummary">select to use HTTP proxy</string>
+    <string name="useProxyTitle">Use HTTP Proxy</string>
+    <string name="about">
+        This program is based on NDKMol and ARToolKit\n
+        NDKMol : http://webglmol.sfjp.jp/\n
+        ARToolKit : https://artoolkit.org/\n\n
+        © Copyright 2017, Electrifierz\n
+    </string>
+    <string name="tooBigPDB">This file is too big. Please consider using NDKmol which is available at Android Market or my project website.</string>
+    <string name="tooBigSDF">This file is too big to open.</string>
+    <string name="wrongPDBID">PDB id is wrong.</string>
+    <string name="unknownFileType">Unknown file type. Only .pdb / .sdf / .mol files are supported.</string>
+    <string name="Zoom">Zoom</string>
+    <string name="Rotate">Rotate</string>
+    <string name="Move">Move</string>
+    <string name="AsMainchainTrace">As mainchain trace</string>
+    <string name="AsRibbon">As thin ribbon (faster)</string>
+    <string name="AsStrand">As strand</string>
+    <string name="ShowSidechains">Show sidechains</string>
+    <string name="BaseAsPolygon">Nucleic acid ladder</string>
+    <string name="BaseAsLine">Nucleic acid line</string>
+    <string name="AsSphere">As sphere</string>
+    <string name="AsStick">As stick</string>
+    <string name="AsLine">As line</string>
+    <string name="ShowSolvents">Show solvents</string>
+    <string name="ByChain">By chain</string>
+    <string name="ByStructure">By structure</string>
+    <string name="AsRainbow">As rainbow</string>
+    <string name="PolarNonpolar">Polar/Nonpolar</string>
+    <string name="ByBFactor">By B factor</string>
+    <string name="ShowPacking">Show packing</string>
+    <string name="ShowUnitCell">Show unit cell</string>
+    <string name="ShowMonomer">Show monomer</string>
+    <string name="ShowBiologicalUnit">Show biological unit</string>
+    <string name="Polymer">Polymer</string>
+    <string name="AsBFactorTube">As B factor tube</string>
+    <string name="Ligands">Ligands</string>
+    <string name="Color">Color</string>
+    <string name="Crystal">Crystals</string>
+    <string name="Open">Open</string>
+    <string name="DownloadPDB">Search and Download</string>
+    <string name="Preferences">Preferences</string>
+    <string name="About">About</string>
+    <string name="goToWebSite">Visit Website</string>
+    <string name="searchButton">Search</string>
+    <string name="PDBID">ID:</string>
+    <string name="structureTitle">Title:</string>
+    <string name="blank"></string>
+    <string name="resolution">Resolution:</string>
+    <string name="authors">Authors:</string>
+    <string name="releaseDate">Released on:</string>
+    <string name="tooManyHits">Found too many entries. Displaying only part of them.</string>
+    <string name="downloading">Downloading&#8230;</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="pleaseWait">Please wait</string>
+    <string name="TouchMode">Touch Mode</string>
+    <string name="Slab">Slab</string>
+    <string name="resetView">Reset View</string>
+    <string name="ShowHeader">View header</string>
+    <string name="downloadError">Error occurred while downloading the structure.</string>
+    <string name="no3DSDF">PubChem does not provide a three dimensional structure of this compound (Only two dimensional structure is available). Download was canceled.</string>
+    <string name="enableFog">enableFog</string>
+    <string name="enableFogTitle">Enable Fog</string>
+    <string name="enableFogSummary">On some devices, this causes a coloring problem. If molecule turns gray, please uncheck this.</string>
+    <string name="AsBonds">As bonds (everything)</string>
+    <string name="None">None</string>
+    <string name="AsThickRibbon">As thick ribbon</string>
+    <string name="SymopHetatms">Apply to HETATMs</string>
+    <string name="doNotSmoothen">No smooth sheets</string>
+    <string name="download">Download</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="strucureDetails">Structure Details</string>
+
+    <string name="menuItem_settings">Settings</string>
+    <string name="prefCategory_title_camera">Camera settings</string>
+    <string name="pref_title_cameraResolution">Camera resolution</string>
+    <string-array name="pref_entries_cameraResolution">
+        <item>320x240   (4:3)</item>
+    </string-array>
+    <string-array name="pref_entryValues_cameraResolution">
+        <item>320x240</item>
+    </string-array>
+    <string name="pref_defaultValue_cameraResolution">320x240</string>
+
+    <string name="pref_title_cameraIndex">Change camera</string>
+    <string-array name="pref_entries_cameraIndex">
+        <item>Rear camera</item>
+    </string-array>
+    <string-array name="pref_entryValues_cameraIndex">
+        <item>0</item>
+    </string-array>
+    <string-array name="open_array">
+        <item>Scan QR Code</item>
+        <item>Open Model</item>
+        <item>Search Model</item>
+    </string-array>
+    <string-array name="open_delete_array">
+        <item>Open</item>
+        <item>Delete</item>
+    </string-array>
+    <string name="title_activity_menu">MenuActivity</string>
+
+</resources>
